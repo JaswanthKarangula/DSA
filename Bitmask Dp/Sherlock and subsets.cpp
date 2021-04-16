@@ -38,6 +38,20 @@ void solve(){
             }
          vector<vi> dp(n,vi((1<<15),0));
 //         //dp[i][mask]---maximum subset size that we can form using only primes set in mask 
+     
+     
+     
+         //Important points in bitmask dp
+    // 1)State fiding
+    // 2)Transition 
+    // 3)44   Initialization base cases
+    // 4)58   Resulting state finding
+     
+     
+     
+     
+     
+     
     for(int i=0;i<n;++i)
     dp[i][v[i]]=1;
     int res=1;
